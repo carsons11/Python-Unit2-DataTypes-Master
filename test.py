@@ -54,8 +54,13 @@ not_movies(homework) """
 factor(25,5) """
 
 
-def oddoreven(x,y):
+""" def oddoreven(x,y):
     if x % y == 0:
         print(f"{x} is even")
     else:
         print(f"{x} is not even")
+oddoreven(367575,2) """
+
+def tipcalc():
+    tip = "How was the service? Bad, Okay, Good, Great"
+    if service = 
