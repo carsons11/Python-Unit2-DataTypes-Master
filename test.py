@@ -60,7 +60,25 @@ factor(25,5) """
     else:
         print(f"{x} is not even")
 oddoreven(367575,2) """
-
+service = 0
 def tipcalc():
-    tip = "How was the service? Bad, Okay, Good, Great"
-    if service = 
+    tip = input ("How was the service? Bad, Okay, Good, Great")
+    tip_perc = 0
+    if tip == "Great":
+        tip_perc = 0.25
+    elif tip == "Good":
+        tip_perc = 0.20
+    elif tip == "Okay":
+        tip_perc = 0.15
+    elif tip == "Bad": 
+        tip_perc = 0
+    else:
+        print ("Invalid")
+    bill = float(input("What is your billamount?"))
+    Subtotal = tip_perc * bill
+    Total = Subtotal + bill 
+    print (f"This is your total: {Total}")
+tipcalc()
+
+
+    
