@@ -104,3 +104,27 @@ factors() """
             h = h + 1
     print (f"This is your GCF: {(list[h])}")
 GCF()  """
+
+
+
+
+def guessing():
+    guess = int(input("What is your number?"))
+    import random
+    actual = random.randint(1, 10)
+    while guess != actual:
+        if guess > actual:
+            print ("Your guess is too high")
+        else: 
+            print ("Your guess is too low")
+        print ("Guess again")
+    if guess == actual:
+        print ("Correct")
+guessing()
+             
+
+    
+
+    
+
+
