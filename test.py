@@ -91,7 +91,7 @@ tipcalc()  """
     print (list)
 factors() """
 
-def GCF():
+""" def GCF():
     x = input("X?")
     y= input("Y?")
     x = int(x)
@@ -102,6 +102,5 @@ def GCF():
         if x%(i+1) == 0 and y%(i+1) == 0:
             list.append(i+1)
             h = h + 1
-    print (f"This is your GCF {(list[h])}")
-GCF() 
-
+    print (f"This is your GCF: {(list[h])}")
+GCF()  """
